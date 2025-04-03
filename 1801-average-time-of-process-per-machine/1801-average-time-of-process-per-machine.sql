@@ -1,4 +1,3 @@
-/* Write your T-SQL query statement below */
 WITH ProcessTimes AS (
     SELECT 
         machine_id,
@@ -7,3 +6,9 @@ WITH ProcessTimes AS (
         sum(CASE WHEN activity_type = 'start' THEN timestamp ELSE NULL END) AS process_time
     FROM activity
     GROUP BY machine_id, process_id
+)
+SELECT 
+    machine_id,
+    ROUND(AVG(process_time), 3) AS processing_time
+FROM ProcessTimes
+GROUP BY machine_id;
