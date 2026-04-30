@@ -5,5 +5,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0577-employee-bonus](https://github.com/kubilayedis/SQL_LeetCode/tree/master/0577-employee-bonus) |
+| [1280-students-and-examinations](https://github.com/kubilayedis/SQL_LeetCode/tree/master/1280-students-and-examinations) |
 | [1801-average-time-of-process-per-machine](https://github.com/kubilayedis/SQL_LeetCode/tree/master/1801-average-time-of-process-per-machine) |
 <!---LeetCode Topics End-->
